@@ -1,0 +1,15 @@
+{
+  "name": "navestream-push-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/davidpaley/navestream-push-server.git",
+  "author": "davidpaley <david.paleyy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
